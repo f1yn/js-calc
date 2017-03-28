@@ -1,7 +1,7 @@
 # js-calc
 A responsive, lightweight and customizable JavaScript calculator.
 
-More documentation is on its way. A live example can be found at [flynnbuckingham.com/calculator](http://flynnbuckingham.com/calculator).
+More documentation is on its way. A live example can be found at [flynnbuckingham.com/projects/calculator](http://flynnbuckingham.com/project/calculator).
 
 To use calc.js: include `calc.css`, `parser.js` and `calc.js` into your webpage or HTML application:
 
@@ -17,11 +17,11 @@ When the DOM is ready: create a new jsCalc with the following code:
 // note that all arguments are optional
 
 var calc = new jsCalc({
-  id: {string} || 'js-calc', // element.id to be added to the calulator to help prevent duplicate binding to a single calculator
+  id: {string} || 'js-calc', // element.id to be added to the calculator to help prevent duplicate binding to a single calculator
   width: {string} || '400px', height: {string} || '800px', // css unit strings (percentage || pixels || viewportUnits || parentFontsize (em) || actual units (metric|imperial))
-  themeClass: {string} || '', // class-names to add to the calulator for additional styling
-  shiftEvent: {function} || funcion(advancedElement){}, // event to be fired after calulator updates while shifting
-  clearEvent: {function} || funcion(displayElement){}, // event to be fired after calculator clears display
+  themeClass: {string} || '', // class-names to add to the calculator for additional styling
+  shiftEvent: {function} || function(advancedElement){}, // event to be fired after calculator updates while shifting
+  clearEvent: {function} || function(displayElement){}, // event to be fired after calculator clears display
 });
 
 calc.create();
