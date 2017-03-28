@@ -3,9 +3,10 @@ A responsive, lightweight and customizable JavaScript calculator.
 
 More documentation is on its way. A live example can be found at [flynnbuckingham.com/calculator](http://flynnbuckingham.com/calculator).
 
-To use calc.js: include parser.js and calc.js into your webpage or HTML application:
+To use calc.js: include `calc.css`, `parser.js` and `calc.js` into your webpage or HTML application:
 
 ```html
+<link rel="stylesheet" href="{path_to_file}/calc.css">
 <script src="{path_to_file}/parser.js"></script>
 <script src="{path_to_file}/calc.js"></script>
 ```
