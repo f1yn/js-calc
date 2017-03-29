@@ -1,9 +1,10 @@
 # js-calc
+
 A responsive, lightweight and customizable JavaScript calculator.
 
-More documentation is on its way. A live example can be found at [flynnbuckingham.com/projects/calculator](http://flynnbuckingham.com/project/calculator).
+Js-calc is a small and easily scalable JavaScript calculator utilizing many new aspects available in the CSS3 spec. Due to it’s constructive design, the calculator can be created in multiple instances and within multiple object in the DOM. (Documentation coming soon). A live example can be found at [flynnbuckingham.com/projects/calculator](http://flynnbuckingham.com/project/calculator).
 
-To use calc.js: include `calc.min.css`, `parser.min.js` and `calc.min.js` into your webpage or HTML application:
+To use js-calc: include `calc.min.css`, `parser.min.js` and `calc.min.js` into your webpage or HTML application:
 
 ```html
 <link rel="stylesheet" href="{path_to_file}/calc.min.css">
